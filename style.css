@@ -2,11 +2,34 @@
     margin: 0;
     padding: 0;
   }
-  header {
-    display: inline-block;
-    border: 1px solid black;
-  }
-  .logopromo {
+
+
+
+
+
+
+  @media screen and (max-width: 900px){
+    
+  
+    header {
+      border: 5px outset black;
+    }
+
+    .logopromo, .logowild {
       width: 100px;
-      height: 100px;
+    }
+
+    .logowild{
+      margin-top : 2em;
+    }
+
+    .entete_mobile {
+      display : flex;
+      justify-content: space-around;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
   }
