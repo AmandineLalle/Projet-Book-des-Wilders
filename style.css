@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
   header {
     border-bottom: 2px solid black;
-    background-color: white;
+    background-color: hsl(0, 90%, 69%);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
   }
   .logopromo {
       width: 125px;
@@ -16,4 +20,14 @@
   }
   h1 {
       text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+  section {
+      padding: 1rem;
+      border-bottom: 2px solid black;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .PresentationSession {
+      margin-top: 1rem;
+      font-family: 'Montserrat', sans-serif;
   }
