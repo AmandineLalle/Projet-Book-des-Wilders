@@ -74,6 +74,11 @@
       width: 50vh;
     }
 
+    details {
+      text-align: center;
+      margin : 1em;
+    }
+
     @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
     .card {
@@ -196,11 +201,18 @@
     
     .allCards {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 20px;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      text-align : center;
     }
-    
-    
+
+    .fullCard {
+      padding-top : 3em;
+    }
+
+    summary {
+      font-size : 20px;
+    }
 
     /* Ecran PC style */
   @media screen and (min-width: 640px){
@@ -237,8 +249,20 @@
       height: 362px;
     }
 
-  
-    
+    .allCards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    details {
+      text-align: left;
+      margin : 1em;
+    }
+
+    summary {
+      font-size : 25px;
+    }
+
   }
 
  
