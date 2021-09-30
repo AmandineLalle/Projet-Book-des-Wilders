@@ -93,7 +93,8 @@
     }
     .photoPromo {
       position: relative;
-      height: 230px;
+      height: 100%;
+      width: 100%;
       margin-bottom: 5px;
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
