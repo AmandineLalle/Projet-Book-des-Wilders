@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+
+body {
+  background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px;
+}
+
+.corpse {
+  background: white;
+  display: inline-block;
+  margin: auto;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+}
+
+.photoPromo {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.back {
+    background-color: transparent;
+}
+
+.bas_de_Carte {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  columns: 2;
+  
+}
+.skill {
+  padding: 5px;
+  border-collapse:collapse;
+  border : solid thin black;
+  
+}
+
+.foot-left {
+  border-bottom-left-radius: 15px;
+}
+
+.foot-right {
+  border-bottom-right-radius: 15px;
+}
+
+.clash-card__level--barbarian {
+  color: #f76c6c;
+}
+
+.name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.description {
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.bas_de_Carte {
+  background: #f76c6c;
+  
+}
+
+.bas_de_Carte {
+  
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.fullCard:hover .image img {
+  opacity: .5;
+  transform: translateX(40%);
+}
+.fullCard .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: #f76c6c;
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(90deg);
+  border-radius: 15px;
+}
+.fullCard:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.fullCard .details .center {
+  padding: 20px;
+  color: black;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fullCard .details .center h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.fullCard .details .center h1 span {
+  font-size: 14px;
+  color: #f76c6c;
+}
+.fullCard .details .center p {
+  margin: 10px 0;
+  padding: 0;
+ 
+}
+.fullCard .details .center ul {
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+}
+.fullCard .details .center ul li {
+  list-style: none;
+  margin: 15px;
+  float: right;
+}
+.fullCard .details .center ul li a {
+  display: block;
+  background: #000000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transform: .5s;
+}
+.fullCard .details .center ul li a:hover {
+  background: #f76c6c;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 5px;
+}
