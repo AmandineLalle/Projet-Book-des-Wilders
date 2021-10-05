@@ -6,16 +6,19 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+
+
     header {
       display : flex;
       justify-content: space-around;
       flex-wrap: wrap;
+
       border-bottom: 2px solid black;
       background-color: hsl(0, 90%, 69%);
     }
 
     h1 {
-      order : 3;
+      order : 3;  
       text-align: center;
     }
 
@@ -24,9 +27,11 @@
     }
 
     .logowild{
+      position : absolute;
+      top : 20px;
       margin-top : 2em;
     }
-
+*/
     .modal-trigger {
       cursor: pointer;
       display: inline-block;
@@ -234,11 +239,24 @@
       justify-content: space-around;
 
     }
+
+    .logowild{
+      position: absolute;
+      top : 30px;
+      left : 15%;
+    }
+
     .logopromo {
+
+      margin-left : 20em;
         width: 125px;
         height: 125px;
+        
     }
+
     h1 {
+        position : absolute;
+        left : 35%;
         text-align: center;
         order : 0;
     }
