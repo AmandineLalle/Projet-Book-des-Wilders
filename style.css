@@ -6,7 +6,9 @@
     font-family: 'Montserrat', sans-serif;
   }
 
-
+    body {
+      background-color: #ffeeee;
+    }
 
     header {
       display : flex;
@@ -23,15 +25,17 @@
     }
 
     .logopromo, .logowild {
-      width: 100px;
+      width: 150px;
+    }
+
+    .logowild {
+      padding-top: 25%;
     }
 
     .logowild{
-      position : absolute;
-      top : 20px;
       margin-top : 2em;
     }
-*/
+
     .modal-trigger {
       cursor: pointer;
       display: inline-block;
@@ -76,7 +80,7 @@
     }
 
     .photoclasse {
-      width: 50vh;
+      width : 500px;
     }
 
     details {
@@ -226,7 +230,7 @@
     }
 
     /* Ecran PC style */
-  @media screen and (min-width: 640px){
+  @media screen and (min-width: 900px){
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
     
 
@@ -240,23 +244,11 @@
 
     }
 
-    .logowild{
-      position: absolute;
-      top : 30px;
-      left : 15%;
-    }
-
-    .logopromo {
-
-      margin-left : 20em;
-        width: 125px;
-        height: 125px;
-        
+    .logopromo, .logowild {
+        width: 200px;
     }
 
     h1 {
-        position : absolute;
-        left : 35%;
         text-align: center;
         order : 0;
     }
@@ -269,8 +261,7 @@
     }
   
     .photoclasse {
-      width: 528px;
-      height: 362px;
+      width: 800px;
     }
 
     details {
