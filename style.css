@@ -220,8 +220,13 @@
 
     }
 
-    summary {
+    .summary {
       font-size : 20px;
+      text-align:
+    }
+
+    .keyfigure {
+      list-style: square inside;
     }
 
     /* Ecran PC style */
