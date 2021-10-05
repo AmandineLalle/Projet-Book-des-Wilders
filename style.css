@@ -13,27 +13,20 @@
     header {
       display : flex;
       justify-content: space-around;
-      flex-wrap: wrap;
-
-      border-bottom: 2px solid black;
-      background-color: hsl(0, 90%, 69%);
+      align-items: center;
+      border-bottom: 1px solid #f33f3f;
+      background-image: linear-gradient( 135deg, #f76c6c 25%, #f8c4c4 100%);
+      border-radius: 0 0 85% 85% / 30%;
     }
 
-    h1 {
+    .bookofwilders {
       order : 3;  
       text-align: center;
+      flex-wrap: wrap;
     }
 
     .logopromo, .logowild {
       width: 150px;
-    }
-
-    .logowild {
-      padding-top: 25%;
-    }
-
-    .logowild{
-      margin-top : 2em;
     }
 
     .modal-trigger {
