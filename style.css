@@ -11,23 +11,38 @@
     }
 
     header {
-      display : flex;
+     /* display : flex;
       justify-content: space-around;
       align-items: center;
+      flex-direction : column;*/
+
+      display : flex;
+      flex-direction : column;
+      align-items: center;
+      
       border-bottom: 1px solid #f33f3f;
       background-image: linear-gradient( 135deg, #f76c6c 25%, #f8c4c4 100%);
       border-radius: 0 0 85% 85% / 30%;
     }
 
-    .bookofwilders {
-      order : 3;  
-      text-align: center;
-      flex-wrap: wrap;
-    }
+    .bookofwilderq {
+      color : rgba(255, 255, 255, 0.774);
+      font-size : 3em;
+      text-align : center;
+      letter-spacing:10px;
+      TEXT-SHADOW : 3px 3px #000;
+  }
 
-    .logopromo, .logowild {
+    .logowild {
+      margin: 1em;
       width: 150px;
     }
+
+    .logopromo {
+      margin: 0;
+      width: 150px;
+    }
+
 
     .modal-trigger {
       cursor: pointer;
@@ -228,27 +243,31 @@
     }
 
     /* Ecran PC style */
-  @media screen and (min-width: 900px){
+  @media screen and (min-width: 880px){
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
     
 
     header {
-      display:none;
-      background-color: hsl(0, 90%, 69%);
-      width: 100%;
-      display: flex;
+     /* display: flex;
       align-items: center;
+      justify-content: space-around;*/
+
+      flex-direction: row;
       justify-content: space-around;
 
     }
 
     .logopromo, .logowild {
+      margin : 0;
         width: 200px;
     }
 
-    h1 {
-        text-align: center;
-        order : 0;
+    .bookofwilderq {
+        margin : 0;
+        color : rgba(255, 255, 255, 0.774);
+        text-align : center;
+        letter-spacing:10px;
+        TEXT-SHADOW : 3px 3px #000;
     }
     section {
         padding: 1rem;
