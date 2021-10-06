@@ -86,11 +86,16 @@
     .photoclasse {
       width : 500px;
     }
-
+    summary, .legende {
+      text-align: center;
+      font-size: 25px;
+    }
     details {
       text-align: center;
       margin : 1em;
     }
+
+
 
     @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
