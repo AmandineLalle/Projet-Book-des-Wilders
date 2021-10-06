@@ -110,6 +110,24 @@
 
     @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
+    .color-sample {
+      display: inline-block;
+      margin: auto;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      background-color:#f76c6c;
+    }
+
+    .color-second {
+      display: inline-block;
+      margin: auto;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      background-color:#1a7a8b;
+    }
+
     .card {
       background: white;
       width: 300px;
