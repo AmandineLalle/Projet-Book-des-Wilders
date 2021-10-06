@@ -724,7 +724,7 @@
   </figure>
 </div>
 <!-- Twentyone Card -->
-<div class="formateur">
+<div class="fullCard">
   <figure class="card">
     <img class="photoPromo"src="asset/Marjorie.png">
     <figcaption>
@@ -753,7 +753,7 @@
   </figure>
 </div>
 <!-- Twentytwo Card -->
-<div class="formateur">
+<div class="fullCard">
   <figure class="card">
     <img class="photoPromo"src="asset/Romain.png">
     <figcaption>
@@ -782,6 +782,15 @@
   </figure>
 </div>
   </div>
+  <script>
+    function randomizeCards() {
+      const cards = document.getElementsByClassName("fullCard");
+
+      for(const card of cards) {
+        card.style.order = parseInt(Math.random() * 100);
+      }
+    }
+  </script>
      </body>
     </html>
     
