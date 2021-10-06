@@ -19,8 +19,7 @@
       border-radius: 0 0 85% 85% / 30%;
     }
 
-    .bookofwilders {
-      order : 3;  
+    .bookofwilders {  
       text-align: center;
       flex-wrap: wrap;
     }
